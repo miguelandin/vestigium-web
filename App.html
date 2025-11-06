@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vestigium — Calendario con rachas</title>
+  <meta name="description" content="Calendario + tareas con vistas flexibles, rachas, grupos y logros. Planes: Gratis, Plus y Pro." />
+  <link rel="stylesheet" href="App.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div class="brand">
+        <img class="brand-mark" src="assets/logo.png" alt="Logo" />
+        <strong>Vestigium</strong>
+      </div>
+      <nav class="menu">
+        <a href="#problema" data-nav>Problema</a>
+        <a href="#solucion" data-nav>Solución</a>
+        <a href="#vistas" data-nav>Vistas</a>
+        <a href="#rachas" data-nav>Rachas</a>
+        <a href="#grupos" data-nav>Grupos</a>
+        <a href="#pricing" data-nav>Precios</a>
+        <a href="#faq" data-nav>FAQ</a>
+        <a href="#cta" class="btn btn-sm">Pedir demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="tag">Calendario + Tareas + Gamificación</span>
+        <h1>Planifica con claridad, cumple con motivación.</h1>
+        <p class="lead">
+          Vestigium integra calendario y tareas con vistas flexibles (día, semana, mes y lista),
+          rachas que crecen al completar, logros que celebran tu constancia y grupos para
+          compartir progreso con amigos o equipo.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">Empezar gratis</a>
+          <a href="#solucion" class="btn">Ver cómo funciona</a>
+        </div>
+        <ul class="ticks">
+          <li>Agenda</li>
+          <li>Rachas, puntos y logros automáticos</li>
+          <li>Comparativas sanas con grupos y retos</li>
+        </ul>
+      </div>
+      <figure class="hero-shot">
+        <img src="assets/mock-hero-calendar.png" alt="Vista combinada de calendario y tareas" loading="eager" />
+        <figcaption>Mockup ilustrativo — sustituye por tus capturas del MVP.</figcaption>
+      </figure>
+    </div>
+    <div class="hero-divider"></div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section id="problema" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>El problema</h2>
+        <small class="micro">Integración, motivación y foco a la vez: lo que hoy falta.</small>
+      </header>
+
+      <div class="cards3">
+        <article class="card media">
+          <figure class="thumb"><img src="assets/problema-1.jpg" alt="Integración dispersa" /></figure>
+          <div>
+            <h3>Herramientas desconectadas</h3>
+            <p>Agenda por un lado, tareas por otro y notas en una tercera app.
+            El resultado: fricción, duplicados y pérdida de foco.</p>
+          </div>
+        </article>
+
+        <article class="card media">
+          <figure class="thumb"><img src="assets/problema-2.jpg" alt="Motivación baja" /></figure>
+          <div>
+            <h3>Baja adherencia</h3>
+            <p>Sin feedback ni refuerzo visual, es fácil abandonar a los pocos días.
+            Falta una mecánica que “enganche” sin ser tóxica.</p>
+          </div>
+        </article>
+
+        <article class="card media">
+          <figure class="thumb"><img src="assets/problema-3.jpg" alt="Foco" /></figure>
+          <div>
+            <h3>Foco difícil</h3>
+            <p>La gente necesita alternar entre día, semana, mes o lista según el momento,
+            sin perder la continuidad de sus objetivos</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUCIÓN -->
+  <section id="solucion" class="section soft">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Nuestra solución</h2>
+        <small class="micro">Calendario + tareas + rachas + social — en una sola experiencia.</small>
+      </header>
+
+      <figure class="overview">
+        <img src="assets/overview-flow.png" alt="Flujo: crear → completar → sumar racha → logros" loading="lazy" />
+      </figure>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-n">01</div>
+          <img class="icon" src="assets/ic-task.png" alt="">
+          <h3>Organiza</h3>
+          <p>Crea tareas y eventos con fecha, etiquetas y recordatorios. Elige visibilidad (privado o en tu grupo).</p>
+        </div>
+        <div class="step">
+          <div class="step-n">02</div>
+          <img class="icon" src="assets/ic-check.png" alt="">
+          <h3>Completa</h3>
+          <p>Marca como hecho desde cualquier vista. Vestigium registra la acción, suma puntos y actualiza la racha.</p>
+        </div>
+        <div class="step">
+          <div class="step-n">03</div>
+          <img class="icon" src="assets/ic-fire.png" alt="">
+          <h3>Progresa</h3>
+          <p>Gana logros por constancia, comparte metas y compara avances con amigos o equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ AHORA -->
+  <section id="why" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>¿Por qué ahora?</h2>
+        <small class="micro">Usuarios saturados de apps y buscando hábitos sostenibles.</small>
+      </header>
+      <div class="cards3">
+        <article class="card">
+          <h3>Convergencia</h3>
+          <p>La gente quiere menos herramientas y más coherencia: una sola app para planificar y cumplir.</p>
+        </article>
+        <article class="card">
+          <h3>Hábito y salud mental</h3>
+          <p>Las rachas y logros refuerzan la adherencia sin ruido competitivo tóxico, mejorando bienestar y productividad.</p>
+        </article>
+        <article class="card">
+          <h3>Social positivo</h3>
+          <p>Grupos y retos sanos añaden motivación externa y accountability ligera.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISTAS -->
+  <section id="vistas" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Vistas que se adaptan a ti</h2>
+        <small class="micro">Cambia según necesites foco o perspectiva.</small>
+      </header>
+
+      <div class="cards4">
+        <article class="card center">
+          <img class="icon-lg" src="assets/ic-day.png" alt="">
+          <h3>Día</h3>
+          <p>Solo lo imprescindible de hoy. Cero distracciones.</p>
+        </article>
+        <article class="card center">
+          <img class="icon-lg" src="assets/ic-week.png" alt="">
+          <h3>Semana</h3>
+          <p>Planifica siete días de un vistazo y balancea carga.</p>
+        </article>
+        <article class="card center">
+          <img class="icon-lg" src="assets/ic-month.png" alt="">
+          <h3>Mes</h3>
+          <p>Panorámica para detectar picos y vacíos de tiempo.</p>
+        </article>
+        <article class="card center">
+          <img class="icon-lg" src="assets/ic-list.png" alt="">
+          <h3>Lista</h3>
+          <p>Todo en un listado plano y rápido para ejecutar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RACHAS Y LOGROS -->
+  <section id="rachas" class="section soft">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Rachas y logros</h2>
+        <small class="micro">Refuerzo positivo y progreso visible.</small>
+      </header>
+
+      <div class="cards3">
+        <article class="card media">
+          <figure class="thumb"><img src="assets/streak-card.jpg" alt=""></figure>
+          <div>
+            <h3>Rachas</h3>
+            <p>Encadena días y crece. Si fallas, se corta. La mecánica más simple y efectiva para mantener hábitos.</p>
+          </div>
+        </article>
+        <article class="card media">
+          <figure class="thumb"><img src="assets/achievements.jpg" alt=""></figure>
+          <div>
+            <h3>Logros</h3>
+            <p>Medallas por constancia, objetivos cumplidos y retos. Un feedback que anima y guía.</p>
+          </div>
+        </article>
+        <article class="card media">
+          <figure class="thumb"><img src="assets/reminders.jpg" alt=""></figure>
+          <div>
+            <h3>Recordatorios</h3>
+            <p>Notificaciones suaves y configurables para no romper la racha.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRUPOS -->
+  <section id="grupos" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Grupos y comparativas</h2>
+        <small class="micro">Motivación social sin presión nociva.</small>
+      </header>
+      <div class="cta-grid">
+        <div class="cta-copy">
+          <h3>Tu círculo, tus retos</h3>
+          <p>Crea grupos privados con amigos o equipo, proponed objetivos semanales y comparad rachas y logros.
+             Rankings sanos, retos compartidos y objetivos comunes para mantener la constancia.</p>
+          <ul class="ticks">
+            <li>Rankings por racha</li>
+            <li>Retos semanales</li>
+            <li>Logros compartidos</li>
+          </ul>
+        </div>
+        <figure class="cta-shot">
+          <img src="assets/groups-mock.png" alt="Vista de grupos" loading="lazy" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETIDORES -->
+  <section id="competidores" class="section soft">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Competidores & diferenciación</h2>
+        <small class="micro">Qué hay y qué aportamos distinto.</small>
+      </header>
+      <div class="chips">
+        <span class="chip">Todoist</span>
+        <span class="chip">Google Calendar</span>
+        <span class="chip">Trello</span>
+        <span class="chip">Notion</span>
+      </div>
+      <p class="muted">
+        Diferenciación: integración real de agenda + tareas, rachas y logros nativos (sin hacks),
+        grupos con comparativas sanas y foco en vistas cambiables sin perder continuidad.
+      </p>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Roadmap</h2>
+        <small class="micro">MVP → Iteraciones con feedback → Escala.</small>
+      </header>
+      <div class="cards3">
+        <article class="card">
+          <h3>MVP (0–2 meses)</h3>
+          <p>Registro/login, creación de tareas/eventos, vistas día/semana, rachas básicas, grupos privados, pricing básico.</p>
+        </article>
+        <article class="card">
+          <h3>Iteración (2–4 meses)</h3>
+          <p>Vista mes/lista, logros avanzados, recordatorios, estadísticas, mejoras de UX y accesibilidad.</p>
+        </article>
+        <article class="card">
+          <h3>Escala (4–6 meses)</h3>
+          <p>Integraciones (Google/Apple Calendar), automatizaciones, exportación y aplicativo móvil.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACIDAD / SEGURIDAD -->
+  <section id="privacidad" class="section soft">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Privacidad y seguridad</h2>
+        <small class="micro">Datos tuyos, bajo tu control.</small>
+      </header>
+      <div class="cards3">
+        <article class="card">
+          <h3>Privacidad primero</h3>
+          <p>Opciones claras de visibilidad (privado / grupo). No vendemos tus datos.</p>
+        </article>
+        <article class="card">
+          <h3>Seguridad</h3>
+          <p>Encriptación en tránsito (TLS), backups y controles de acceso mínimos necesarios.</p>
+        </article>
+        <article class="card">
+          <h3>Exportación</h3>
+          <p>Exporta tus datos y elimínalos cuando quieras. Transparencia por defecto.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section pricing">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Precios transparentes</h2>
+        <small class="micro">Prueba gratis. Mejora cuando te compense.</small>
+      </header>
+
+      <div class="prices">
+        <article class="price-card">
+          <span class="badge">Para empezar</span>
+          <div class="pc-head">
+            <h3>Gratis</h3>
+            <p class="pc-price">0€</p>
+          </div>
+          <ul class="pc-list">
+            <li>Tareas/eventos básicos</li>
+            <li>Vistas: día y lista</li>
+            <li>Rachas básicas</li>
+            <li>Grupos limitados</li>
+          </ul>
+          <a href="#cta" class="btn">Crear cuenta</a>
+        </article>
+
+        <article class="price-card featured">
+          <span class="badge">Recomendado</span>
+          <div class="pc-head">
+            <h3>Plus</h3>
+            <p class="pc-price">0,99€/mes</p>
+          </div>
+          <ul class="pc-list">
+            <li>Vistas completas (día/semana/mes/lista)</li>
+            <li>Recordatorios avanzados</li>
+            <li>Más logros y estadísticas</li>
+            <li>Grupos ampliados</li>
+          </ul>
+          <a href="#cta" class="btn btn-primary">Probar Plus</a>
+        </article>
+
+        <article class="price-card">
+          <span class="badge">Equipos</span>
+          <div class="pc-head">
+            <h3>Pro</h3>
+            <p class="pc-price">9,99€/mes</p>
+          </div>
+          <ul class="pc-list">
+            <li>Todo en Plus</li>
+            <li>Automatizaciones y exportación</li>
+            <li>Informes y soporte prioritario</li>
+            <li>Integraciones (Calendars)</li>
+          </ul>
+          <a href="#cta" class="btn">Subir a Pro</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="cta">
+    <div class="wrap cta-grid">
+      <div class="cta-copy">
+        <h2>¿Vemos una demo de 15’?</h2>
+        <p>Déjanos tu email y te contactamos.</p>
+        <form id="newsletter" class="cta-form">
+          <input type="email" placeholder="tu@email.com" aria-label="Email" />
+          <button class="btn btn-primary">Enviar</button>
+        </form>
+        <p id="msg" class="msg"></p>
+      </div>
+      <figure class="cta-shot">
+        <img src="assets/cta-shot.jpg" alt="Dashboard de ejemplo" loading="lazy" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap">
+      <header class="sect-head">
+        <h2>Preguntas frecuentes</h2>
+        <small class="micro">Dudas típicas de usuarios y equipos.</small>
+      </header>
+      <div id="faqList" class="faq"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap foot">
+      <span>© 2025 Vestigium</span>
+      <span>Hecho con 💻 + ☕</span>
+    </div>
+  </footer>
+
+  <script src="App.js" defer></script>
+</body>
+</html>
