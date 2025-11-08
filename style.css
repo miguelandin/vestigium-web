@@ -394,6 +394,8 @@ input[type="email"] {
   height: 100%;
 
   object-fit: cover;
+
+  filter: invert(1); /* invierte los colores del png */
 }
 
 .icon {
@@ -402,6 +404,8 @@ input[type="email"] {
 
   object-fit: contain;
   margin-bottom: 6px;
+
+  filter: invert(1); /* invierte los colores del png */
 }
 
 .icon-lg {
@@ -410,6 +414,8 @@ input[type="email"] {
 
   margin-bottom: 8px;
   object-fit: contain;
+
+  filter: invert(1); /* invierte los colores del png */
 }
 
 /* =========================================
