@@ -169,6 +169,8 @@ input[type="email"] {
 
   object-fit: contain;
   opacity: .95;
+
+  filter: invert(1); /* invierte los colores del png */
 }
 
 .menu a {
